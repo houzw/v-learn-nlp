@@ -11,4 +11,7 @@ import scrapy
 class ScrapyDemoItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    positionName = scrapy.Field()
+    positionLink = scrapy.Field()
+
     pass
