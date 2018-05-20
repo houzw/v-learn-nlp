@@ -13,5 +13,12 @@ class ScrapyDemoItem(scrapy.Item):
     # name = scrapy.Field()
     positionName = scrapy.Field()
     positionLink = scrapy.Field()
-
+    # 职位类型
+    positionType = scrapy.Field()
+    # 职位人数
+    positionNumber = scrapy.Field()
+    # 工作地点
+    workLocation = scrapy.Field()
+    # 发布时点
+    publishTime = scrapy.Field()
     pass
